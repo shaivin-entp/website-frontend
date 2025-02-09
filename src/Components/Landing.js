@@ -37,10 +37,10 @@ function Landing() {
                 </div>
                 <div className="header-right">
                     <a href="mailto:info@example.com" className="email-link">
-                        Email: shaivinEnterprise.com
+                        Email: shaivinenterprise@gmail.com
                     </a>
-                    <a href="tel:+1234567890" className="call-link">
-                        Call: +123-456-7890
+                    <a href="tel:+91 8460595601"  className="call-link">
+                        Call: +91 8460595601 
                     </a>
 
                 </div>
@@ -66,7 +66,7 @@ function Landing() {
                         <p className="grey">
                             Delivering End-To-End Solutions In Capital And Finance
                         </p>
-                        <a href="#oem-accounts" className="btn" onClick={handleClick}><span>Click here to Visit</span></a>
+                        <a href="#oem-accounts" className="btn"><span>Click here to Visit</span></a>
                     </div>
                 </div>
             </div>
@@ -108,15 +108,16 @@ function Landing() {
                 <div className="footer-section contact">
                     <h3>Contact</h3>
                     <address>
-                        307-310, Camps Corner-2, 100 Feet Anand Nagar Rd,<br />
-                        Opp. Auda Garden, Prahlad Nagar, Ahmedabad,<br />
-                        Gujarat 380015, India
+                        411 Sunrise Mall,<br />
+                       Nr. Swaminarayan Temple <br />
+                       Vastrapur ,Ahmedabad-380015 <br />
+                        Gujarat, India
                     </address>
-                    <h3>Email: <a href="mailto:shaivinEnterprise.com" style={{ color: "White" }}>shaivinEnterprise.com</a></h3>
-                    <h3>Phone: +91 9313067168, +91 9558870426</h3>
+                    <h3>Email: <a href="mailto:shaivinenterprise@gmail.com" style={{ color: "White" }}>shaivinenterprise@gmail.com</a></h3>
+                    <h3>Phone: +91 8460595601 </h3>
                     <h4>Open Time</h4>
                     <h3>Monday - Saturday: 10:00 to 07:00 pm</h3>
-                    <h3>Closed on Sunday</h3>
+                    
 
                 </div>
             </footer>

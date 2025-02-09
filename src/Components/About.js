@@ -14,8 +14,13 @@ const About = () => {
                 <ul className="footer-list2">
                     <li>✔ Talk to one of our best consultants today</li>
                     <li>✔ Our experts are able to find new growth</li>
-                    <li>📞 Contact Detail: +91 XXXXXXXX</li>
-                    <li>📍 Address: Ahmedabad</li>
+                    <li> Contact Detail: +91 8460595601 </li>
+                    <li> Email : shaivinenterprise@gmail.com</li>
+                    <li> Address:   411 Sunrise Mall,<br />
+                       Nr. Swaminarayan Temple <br />
+                       Vastrapur ,Ahmedabad-380015 <br />
+                        Gujarat, India
+                    </li>
                 </ul>
             </div>
             <div className="footer-bottom2">

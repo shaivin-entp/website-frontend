@@ -11,7 +11,7 @@ const Banner = () => {
                 </h2>
                 <p>Need admittance to work visa or searching for migrate/work permit/study abroad etc.</p>
                 <p className="call-section">
-                    📞 <span className="call-now">Call Now:</span> <a href="tel:+91XXXXXXXXXX">+91 XXXXXXXX</a>
+                    📞 <span className="call-now">Call Now:</span> <a href="tel:+91 8460595601">+91 8460595601 </a>
                 </p>
             </div>
 
