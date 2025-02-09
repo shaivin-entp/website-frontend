@@ -1,0 +1,57 @@
+
+  html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents scrolling */
+}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .header li {
+    margin: 0 15px;
+  }
+  
+  .hero {
+    background: url("https://via.placeholder.com/1200x400") no-repeat center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h1 {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+  }
+  

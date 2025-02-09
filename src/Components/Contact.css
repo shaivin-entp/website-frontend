@@ -1,0 +1,96 @@
+/* ContactForm.css */
+.contact-container {
+    width: 80%;
+    width: 90%; /* Ensures responsiveness */
+    margin: 0px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-field {
+    width: calc(100% - 24px); /* Adjust width to prevent overflow */
+    padding: 12px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    display: block;
+    transition: border 0.3s ease-in-out;
+    box-sizing: border-box; /* Prevents breaking issues */
+}
+
+.input-field:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.textarea-field {
+    height: 120px;
+    resize: none;
+}
+
+.send-button {
+    width: 98.3%;
+    padding: 12px;
+    background: linear-gradient(135deg, #007BFF, #0056b3);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.send-button:hover {
+    background: linear-gradient(135deg, #0056b3, #003f7f);
+}
+
+/* Responsive Fixes */
+@media screen and (max-width: 600px) {
+    .contact-container {
+        width: 95%; /* Makes form fit small screens */
+    }
+
+    .input-field {
+        width: 100%; /* Ensures proper alignment */
+    }
+}
+
+.speciality-heading {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: #FF3D51;
+  }
+
+  .speciality-heading2 {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 8px;
+  }
+
+  .textheaders{
+    display: flex;
+    padding: 0px 0px 0px 20px;
+  }
+
+  .contactus{
+    padding: 0px 0px 40px 0px ;
+  }
+  

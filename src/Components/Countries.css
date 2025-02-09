@@ -1,0 +1,73 @@
+.container{
+    padding: 0px 20px 20px 20px;
+    background: #ffffff;
+}
+
+.mySwiper{
+    padding: 20px 60px 50px 60px;
+}
+
+
+.speciality-heading {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    color: #FF3D51;
+  }
+
+  .speciality-heading2 {
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 8px;
+  }
+  
+  .speciality-swiper {
+    padding: 15px;
+  }
+
+  .textheader{
+    display: flex;
+  }
+
+
+.country-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    height: 250px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .country-card:hover {
+    filter: brightness(1.2);
+    transform: scale(1.05);
+  }
+  
+  .country-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .country-name {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .swiper-button-prev,
+.swiper-button-next {
+    color: black;
+}

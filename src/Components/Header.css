@@ -1,0 +1,73 @@
+/* Header Container */
+.header2 {
+    position: fixed;
+    width: 100%;
+    height: 60px; /* Adjusted for better layout */
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0px; /* Added padding */
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.logo2 img {
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/* Navigation */
+.nav-links2 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation Items */
+.nav-links2 li {
+    margin: 0 20px; /* Added spacing */
+}
+
+/* Navigation Buttons */
+.nav-links2 li button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover Effects */
+.nav-links2 li button:hover {
+    color: #007bff;
+    transform: scale(1.05);
+}
+
+/* Fix Header Overlapping Content */
+section {
+    scroll-margin-top: 80px; /* Adjusted margin to avoid header overlap */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header2 {
+        padding: 0 20px;
+    }
+
+    .nav-links2 {
+        flex-direction: row;
+    }
+
+    .nav-links2 li {
+        margin: 0 10px;
+    }
+
+    .nav-links2 li button {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,95 @@
+.hero-container {
+    padding-top: 60px;
+    width: 100%;
+    height: 84vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    position: relative;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(0.6);
+    transition: opacity 1.5s ease-in-out;
+}
+
+.image-wrapper:hover img{
+    filter: brightness(0.3);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 50%;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Navigation Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: center; /* Fix position while scaling */
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 10;
+    width: 40px;  
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+/* Zooming Effect on Hover */
+.arrow:hover {
+    transform: translateY(-50%) scale(1.3); /* Scale from center without moving */
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.next {
+    right: 2%;
+}
+
+.prev {
+    left: 2%;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
